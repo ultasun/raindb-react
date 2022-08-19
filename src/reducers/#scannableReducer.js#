@@ -1,0 +1,3 @@
+const INITIAL_STATE = { id: 0, parent_id: '', scannable: '', payload: ''};
+
+export default 

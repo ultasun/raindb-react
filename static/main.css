@@ -1,0 +1,187 @@
+@media (min-width: 750px) {
+    html {
+	font-size: 100%; /* 1rem is 10px */
+	font-family: "Trebuchet MS", sans-serif;
+	background: #e7bf26;
+    }
+    .topbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    }
+    .levelHelpArea {
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+	margin: 15px;
+	justify-content: space-between;
+    }
+    .loginForm {
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	justify-content: flex-end;
+    }
+    .loginForm_label {
+	padding: 10px;
+	margin: 5px;
+	color: rgb(236,208,91);
+	font-weight: bold;
+	font-family: "Courier", monospace;
+	background: rgb(101,43,61);
+	border-radius: 6px;
+    }
+}
+
+@media (max-width: 749px) {
+    html {
+	font-size: 66%;
+	font-family: "Trebuchet MS", sans-serif;
+	background: #e7bf26;
+    }
+    .topbar {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+    }
+    .levelHelpArea {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	margin: 15px;
+	justify-content: space-between;
+    }
+    .loginForm {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	justify-content: center;
+    }
+    .loginForm_label {
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: rgb(236,208,91);
+	font-weight: bold;
+	font-family: "Courier", monospace;
+	background: rgb(101,43,61);
+	border-radius: 6px;
+	text-align: center;
+    }
+}
+
+a {
+    background: #ae0202;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 6px;
+    color: #eeeeee;
+    font-weight: normal;
+}
+
+a:hover {
+    background: #dc0100;
+    color: #fbda4a;
+}
+
+a.public-link {
+    background: #dc0100;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 6px;
+    color: #fbda4a;
+    font-weight: normal;
+}
+
+a:hover.public-link {
+    background: #ae0202;
+    color: #eeeeee;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px solid silver;
+    border-radius: 3px;
+}
+
+li {
+    margin-top: 15px;
+    line-height:35px;
+}
+
+.pageTitle {
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: #fbda4a;
+    border-radius: 6px;
+}
+
+.aboutList {
+    text-align: left;
+    font-weight: bold;
+}
+
+.tableRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Courier", monospace;
+}
+
+.tableCell {
+    margin: 5px;
+    text-align: center;
+}
+
+.tableHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+}
+
+.objectsTableRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Courier", monospace;
+}
+
+.objectsTableCell {
+    margin: 5px;
+    text-align: center;
+}
+
+.objectsTableHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+}
+
+.appLogoBox {
+    background: black;
+    color: white;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 6px;
+}
+
+.emphasis {
+    color: #dc0100;
+}
+
+.hrTableHeader {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border: 3px dashed silver;
+    border-radius: 0px;
+}
