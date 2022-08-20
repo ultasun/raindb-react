@@ -72,6 +72,7 @@ module.exports = webpackMerge(webpackCommon, {
   ],
 
   devServer: {
+    disableHostCheck: true,
     host: env.devServer.host || 'localhost',
     port: env.devServer.port || 3000,
     contentBase: path.resolve(__dirname, '../static'),
