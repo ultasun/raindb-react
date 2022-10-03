@@ -2,7 +2,7 @@
 *RainDB* is a system for [*SKU*](https://en.wikipedia.org/wiki/Stock_keeping_unit) information, mapping physical objects to physical containers. Parent-child relationships can be used to establish an organizational tree.  A USB barcode scanner would make this application a lot more fun to use! 
 
 # Why
-The author wrote this as a demonstration of [CINDI](https://github.com/ultasun/cindi), which is a Meta-[*DBMS*](https://en.wikipedia.org/wiki/Category:Database_management_systems) to assist with rapid prototyping of web applications.
+The author wrote this as a demonstration of [*CINDI*](https://github.com/ultasun/cindi), which is a Meta-[*DBMS*](https://en.wikipedia.org/wiki/Category:Database_management_systems) to assist with rapid prototyping of web applications.
 
 This [*ReactJS*](https://reactjs.org/) application was part of a capstone project to complete the *Bottega Full Stack Development Certificate*, so any feedback is greatly appreciated...open up an issue in this repository's issue tracker!
 
